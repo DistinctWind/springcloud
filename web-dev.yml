@@ -3,6 +3,8 @@ server:
 spring:   # 服务名称
   application:
     name: myshop-web
+  rabbitmq:
+    host: 192.168.1.100  # rabbitmq所在虚机地址
   datasource:
     url: jdbc:mysql://192.168.1.100:3306/springcloud?characterEncoding=UTF8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
